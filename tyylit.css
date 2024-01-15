@@ -1,0 +1,12 @@
+h1 { color: green; font-size: 36px;}
+h2 { color: greenyellow; font-size: 28px;}
+h3 { color: yellowgreen; font-size: 22px;}
+p { color: grey; font-size: 16px;}
+link, blockquote { color: rgb(226, 142, 142)}
+
+
+[class~="olen"] {color: red;}
+
+.olen { color: red; }
+
+#olen { color: purple}
