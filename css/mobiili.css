@@ -1,0 +1,17 @@
+@media only screen and (min-width: 800px) and (max-width: 1200px) {
+    .main-box {
+        grid-template-columns: repeat(auto-fill, minmax(calc(50% - 10px), 1fr)); /* 2 laatikkoa vierekkäin, ottaen huomioon marginaalit */
+    }
+
+    .box {
+        max-width: 100%; /* Laatikon maksimileveys on 100% näytöstä */
+        width: 100%; /* Laatikon leveys on 100% näytöstä */
+        margin: 0 10px 20px 0; /* Lisää marginaali oikealle ja alaspäin */
+    }
+
+    .otsikko {
+        grid-column: span 2; /* Muuta span-arvoa otsikolle kattaaksesi 2 laatikkoa */
+        margin-bottom: 20px; /* Säädä tarvittaessa */
+    }
+    
+}

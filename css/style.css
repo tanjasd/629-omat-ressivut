@@ -1,0 +1,227 @@
+body {
+    font-size: 15px/1.5;
+    margin: 10px;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #e7c1eb;
+    background-image: url("./img/Iisvesi\ veneestä.jpg");
+    background-repeat: repeat-y;
+    background-position: center;
+    color: var(--teksti);
+     display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Aseta vähimmäiskorkeus näytön korkeudelle */
+    
+    
+}
+
+ul {
+
+    margin: 0;
+    padding: 0;
+    float: left;
+    display: inline;
+}
+
+
+.highlight {
+    color: rgb(44, 116, 134);
+    font-weight: bold;
+
+}
+
+.dark {
+    background-color: #f4f4f4;
+    padding: 15px;
+    color: #eb0606;
+}
+header {
+    background-color: rgb(105, 21, 67);
+    color: #000000;
+    padding: 30px 0px;
+    min-height: 70px;
+    border-bottom: #ebaaff 3px solid;
+
+}
+
+#branding img {
+    display: block;
+    float: left;
+    padding: 5px;
+    margin: 0px 10px 0px 10px;
+    height: 50px;
+    -ms-transform: rotate(25deg); 
+    -webkit-transform: rotate(deg);
+    transform: rotate(25deg);
+
+}
+
+#branding h1 {
+    margin: 0px;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px;
+}
+
+header nav {
+    float: right;
+    margin-top: 15px;
+}
+
+header #branding {
+    float: left;
+}
+
+main {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+section {
+    max-width: 1200px;
+    width: 100%;
+    margin: 20px auto;
+}
+
+#showcase {
+    background-image: url(./css/img/Kukkakimppu.jpg);
+    background-repeat: repeat-y; /* Toista vain pystysuunnassa */
+    background-size: 100% auto;  /* Tee taustakuva aina näytön levyiseksi ja toista pystysuunnassa tarvittaessa */
+    
+    width: 100%;
+    color: #000000;
+
+    flex: 1;
+} 
+body, html {
+    height: 100%; /* Aseta bodyn ja html:n korkeus 100%:iin */
+    margin: 0; /* Nollaa bodyn ja html:n marginaalit */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 10px;
+}
+
+.main-box {
+    width: 100%;
+    padding: 20px;
+    margin: 20px 10px 10px 10px;
+    max-width: 1200px;
+    border-radius: 10px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    overflow: hidden; /* Estää .box-elementtien menemisen yli showcase:n */
+}
+
+.box {
+    box-sizing: border-box;
+    max-width: 250px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.otsikko {
+    grid-column: span 4;
+    text-align: center;
+    margin-bottom: 20px; /* Voit säätää tarvittaessa */
+}
+
+
+.box h2 {
+    color: #000000;
+}
+
+.box p {
+    margin: 10px 0;
+}
+
+
+#showcase p {
+    font-size: 1.2em;
+}
+
+#main-col {
+    width: 100%;
+    line-height: 1.5em;
+    grid-column: span 4;
+}
+
+#main-col h1 {
+    font-size: 1.5em;
+    margin-top: 0;
+    grid-column: span 4;
+}
+
+#sidebar {
+    float: right;
+    width: 30%;
+    line-height: 1.5em;
+    padding: 15px;
+}
+
+#sidebar h3 {
+    font-size: 1.3em;
+}
+
+#sidebar img {
+    max-width: 100%;
+}
+
+footer {
+
+    bottom: 0;
+    padding: 20px;
+    color: #000000;
+    background-color: rgb(12, 102, 68);
+    width: 100%;
+    text-align: center;
+    position: relative;
+    clear: both; /* Varmista, ettei footer mene muiden elementtien päälle */
+    margin-top: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  td strong {
+    display: inline-block;
+    margin-right: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  td p {
+    margin-bottom: 10px;
+  }
+
+.mark {
+    color: rgb(0, 0, 0); /* Vaihda väri haluamaksesi */
+    background-color: #e7c1eb;
+}
+

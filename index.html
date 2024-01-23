@@ -1,40 +1,72 @@
 <!DOCTYPE html>
-<html lang="fi">
+<html>
+    <html lang="fi">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ihan itee</title>
-    <link rel="stylesheet" href="tyylit.css">
-</head>
-<body>
-    <header>
-        <span>Teemapäivä Tanja</span>
-    </header>
-        <nav>
-            <a href="https://pmk.esedu.fi/tanja.tepponen/public_html/">Etusivu</a>
-            <a href="https://pmk.esedu.fi/tanja.tepponen/public_html/harrastukset.html">Harrastukset</a> 
-            <a href="https://pmk.esedu.fi/tanja.tepponen/public_html/opinnot.html">Opinnot</a>
-            <a href="https://pmk.esedu.fi/tanja.tepponen/public_html/some.html">Some</a>
-            <a href="https://pmk.esedu.fi/tanja.tepponen/public_html/työnäytteet.html">Työnäytteet</a>
-            <a href="https://pmk.esedu.fi/tanja.tepponen/public_html/työt.html">Työt</a>
-        </nav>
 
- 
-        <h1>Tanja Halonen</h1>
-        <p>Reilu 31 vuotta sitten marraskuisena isänpäiväaamuna synnyin ihmettelemään maailmaa Kuopiossa.</p>
-        <p>Monen mutkan kautta olen päätynyt Suonenjoelle, josta käsin olen ihmetellyt Pieksämäkeä, Rautalampea ja taas lisää Kuopiota.</p>
-        <p>Tätä en tiedä miten näkyy ja missä, mutta lähdetään kokeilemaan. </p>
+    <title>Tanja Ha</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mobiili.css">
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body> 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark container-fluid">
+        <div class="container py-2">
+            <span class="navbar-brand">
+                <img src="./css/img/Kukkakimppu.jpg" alt="kukkakimppu" height="40px">  
+            </span>
+    
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar" aria-controls="nav  barSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse justify-content-end" id="myNavbar"> 
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="./index.html" class="nav-link text-center">Etusivu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./harrastukset.html" class="nav-link text-center">Harrastukset</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./some.html" class="nav-link text-center">Some</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./opinnot.html" class="nav-link text-center">Opinnot</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./Duunit.html" class="nav-link text-center">Historia</a>
+                    </li> 
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="showcase"> 
+        <div class="container">
+            <div id="branding">
+                <h1><strong><span class="mark"><img src="./css/img/Kukkakimppu.jpg" alt="kukkakimppu">Halonen</span></strong></h1>
+            </div>
+                <p><span class="mark">Reilu 31 vuotta sitten marraskuisena isänpäiväaamuna synnyin ihmettelemään maailmaa Kuopiossa.</span></p>
+                <p><span class="mark">Monen mutkan kautta olen päätynyt Suonenjoelle, josta käsin olen ihmetellyt Pieksämäkeä, Rautalampea ja taas lisää Kuopiota.</span></p>
+                <p><span class="mark">Tätä en tiedä miten näkyy ja missä, mutta lähdetään kokeilemaan. </span></p>
 
     
 
-    <p><a href="https://pmk.esedu.fi/tanja.tepponen/public_html/opinnot.html" target="_blank">Tästä pääset lukemaan opiskelustani.</a></p>
-    <p><a href="https://pmk.esedu.fi/tanja.tepponen/public_html/harrastukset.html">Tästä pääset lueskelemaan harrastuksistani.</a></p>
-    <img src="img/Kukkakimppu.jpg" alt="Kukkakimppu" style="width: 20%">
+    <p><span class="mark"><a href="https://pmk.esedu.fi/tanja.tepponen/594/opinnot.html" target="_blank">Tästä pääset lukemaan opiskelustani.</a></span></p>
+    <p><span class="mark"><a href="https://pmk.esedu.fi/tanja.tepponen/594/harrastukset.html">Tästä pääset lueskelemaan harrastuksistani.</a></span></p>
+    <img src="./css/img/Kukkakimppu.jpg" alt="Kukkakimppu" style="width: 20%">
+        </div>
+    </section>
+
 
     <footer>
-        &copy; Supertanja
+        &copy; Supertanja 2024
     </footer>
 
 </body>
-</html>
+</html>  
